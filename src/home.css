@@ -2,6 +2,9 @@
     padding: 0;
     margin:0;
 }
+body{
+    background:radial-gradient(rgb(223, 193, 137),rgb(233, 178, 77));
+}
 .landing{
     height: 100vh;
     display: flex;
@@ -22,4 +25,9 @@
     font-size: 3em;
     color: red;
 }
-
+.contents{
+    height:100vh;
+}
+.content{
+    font-size: 4em;
+}

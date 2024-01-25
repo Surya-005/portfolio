@@ -18,11 +18,11 @@ export default function Home() {
                     <h1>front end developer</h1>
                 </div>
             </div>
-            <div>
-                <div>about</div>
-                <div>contact</div>
-                <div>projects</div>
-
+            <div className="contents">
+                <div className="content">about</div>
+                <div className="content">contact</div>
+                <div>photo</div>
+                <div className="content">projects</div>
             </div>
         </div>
     )
