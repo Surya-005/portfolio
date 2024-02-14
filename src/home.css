@@ -3,31 +3,42 @@
     margin:0;
 }
 body{
-    background:radial-gradient(rgb(223, 193, 137),rgb(233, 178, 77));
+    background:#CFAE3A;
 }
 .landing{
     height: 100vh;
     display: flex;
 }
 .greetings,.intro_photo{
-    width:50%;
+    width:40%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
 }
-.greetings h1:first-child{
-    font-size: 7em;
+.intro_photo{
+    width:60%
+}
+.greetings h1:first-child,.greetings h1:nth-child(2){
+    font-size: 5em;
     text-transform: capitalize;
     font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .greetings h1:nth-child(2){
     font-size: 3em;
-    color: red;
 }
-.contents{
-    height:100vh;
+.greetings img{
+    height: 50%;
 }
-.content{
-    font-size: 4em;
+.greetings button{
+    background-color: gold;
+    padding: 0.2em 0.5em;
+    font-size: 2em;
+    border-radius: 1em;
+    font-weight: 600;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.intro_photo img{
+    height: 70%;
 }

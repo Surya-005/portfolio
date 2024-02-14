@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css"
-
+import Map from "./IMAGES/MAP.png"
+import Treasure from "./IMAGES/TREASURE.png"
 export default function Home() {
     return (
         <div>
@@ -9,20 +10,13 @@ export default function Home() {
                     <h1>hi buddy</h1>
                     <h1>welcome</h1>
                     <div>
-                        <button>explore</button>
+                        <button>Explore</button>
                     </div>
+                    <img src={Treasure}/>
                 </div>
                 <div className="intro_photo">
-                    <div>photo</div>
-                    <h1>surya</h1>
-                    <h1>front end developer</h1>
+                    <img src={Map}/>
                 </div>
-            </div>
-            <div className="contents">
-                <div className="content">about</div>
-                <div className="content">contact</div>
-                <div>photo</div>
-                <div className="content">projects</div>
             </div>
         </div>
     )
